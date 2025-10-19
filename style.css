@@ -58,3 +58,93 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
+.weather-card img {
+  height: 100px;
+}
+.temperature {
+  font-size: 5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  margin-top: -30px;
+}
+.weather-card {
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+}
+.bg-temp {
+  background-image: url(./assets/images/bg-today-small.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
+}
+.weather-card h3 {
+  font-size: 2rem;
+}
+.weather-info {
+  padding: 20px;
+}
+.weather-card p {
+  margin-top: 20px;
+}
+.other-temp-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.temp-info-content {
+  background-color: hsla(240, 6%, 70%, 0.281);
+  padding: 10px;
+  border-radius: 5px;
+}
+.days img {
+  height: 50px;
+}
+.days {
+  background-color: hsla(240, 6%, 70%, 0.281);
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+.forecast-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 30px;
+}
+.days div {
+  display: flex;
+  justify-content: space-between;
+}
+.detailed-forecast {
+  background-color: hsla(240, 6%, 70%, 0.281);
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.hourly-forecast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hourly-forecast button {
+  background-color: hsla(240, 6%, 70%, 0.281);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
