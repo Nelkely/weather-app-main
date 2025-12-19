@@ -148,3 +148,22 @@ h1 {
   color: white;
   cursor: pointer;
 }
+.hourly-forecast-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background-color: hsla(240, 6%, 70%, 0.281);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.hourly-forecast-content img {
+  height: 40px;
+}
+.time {
+  display: flex;
+  align-items: center;
+}
+.time img{
+  
+}
